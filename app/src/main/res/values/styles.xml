@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+    <!--colorPrimaryDark是我们手机最顶端的状态栏的背景颜色（改变它需要Android5.0以及以上的手机支持才行）。-->
+    <!--colorPrimary是指导航栏的颜色。-->
+    <!--colorAccent是指我们常用控件比如Button等的颜色。-->
+    <!--textColorPrimary是指我们导航栏中标题的颜色。-->
+    <!--windowBackground是指我们窗体的默认颜色。-->
+    <!--navigationBarColor是指Android手机中虚拟按键的背景颜色。-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/text_16_sp</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+</resources>
